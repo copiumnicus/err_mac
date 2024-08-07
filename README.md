@@ -10,13 +10,6 @@ err_mac = { git = "https://github.com/copiumnicus/err_mac.git", rev = "08f6335" 
 ```rust
 use err_mac::create_err_with_impls;
 
-#[derive(Debug, PartialEq)]
-struct MarketErr;
-#[derive(Debug, PartialEq)]
-struct ConvertErr;
-#[derive(Debug, PartialEq)]
-struct EthRpcErr;
-
 create_err_with_impls!(
     #[derive(Debug, PartialEq)]
     SplitErr,
