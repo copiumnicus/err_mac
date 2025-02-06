@@ -2,5 +2,7 @@
 name = "err_mac"
 version = "0.1.0"
 edition = "2021"
+description = "A simple no dependency macro for creating error enums with automatic `From` implementations"
+license = "MIT"
 
 [dependencies]
