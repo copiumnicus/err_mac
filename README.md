@@ -1,6 +1,6 @@
 # err_mac
 
-A simple, ergonomic macro for creating error enums with automatic `From` implementations.
+A simple no dependency macro for creating error enums with automatic `From` implementations.
 
 ## Features
 
